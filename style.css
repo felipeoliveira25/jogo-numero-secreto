@@ -80,3 +80,57 @@ h3 {
     background-color: #bbbbbb;
     
 }
+
+.mudar-numero{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    text-align: start;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 30px;
+    background-color: #757575;
+    gap: 10px;
+    
+}
+.mudar-numero label{
+    color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.secao-input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.input-mudar{
+    outline: none;
+    border: none;
+    
+}
+.botao-mudar{
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    height: 25px;
+    font-family: var(--font-family);
+    color: black;
+    font-weight: 900;
+}
+.botao-mudar:hover{
+    background-color: #bbbbbb;
+}
+
+.hidden{
+    display: none;
+}
+.btn-mudar-param{
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.btn-mudar-param:hover{
+    background-color: #bbbbbb;
+}

@@ -17,6 +17,7 @@
         <button class="btn-falar" id="btn-ligar-audio"><i class="fa-solid fa-microphone"></i></button>
         <span>Clique para falar! </span>
     </section>
+
     
 
     <div id="chute" class="mensagem">
@@ -24,6 +25,19 @@
         <span class="box">20</span>
         <div>O número secreto é maior <i class="fa-solid fa-up-long"></i></div> -->
     </div>
+    <form class="mudar-numero hidden" id="form-mudar-numero">
+        <section class="secao-input">
+            <label for="input-numero-menor">Número Menor:</label>
+            <input type="number" name="" id="input-numero-menor" class="input-mudar">
+        </section>
+        <section class="secao-input">
+            <label for="input-numero-maior">Número Maior: </label>
+            <input type="number" name="" id="input-numero-maior" class="input-mudar">
+        </section>
+        <button id="botao-mudar-numero" class="botao-mudar">Mudar</button>
+    </form>
+    
+    <button class="btn-mudar-param" id="btn-mudar-parametro">Mudar Parâmetros</button>
 
     <script src="app/sortearNumero.js"></script>
     <script src="app/reconhecimentoDeVoz.js"></script>
